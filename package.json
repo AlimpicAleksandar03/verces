@@ -9,7 +9,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "clean": "rm -rf dist",
-    "deploy": "vercel"
+    "deploy": "vercel",
+    "local": "vercel dev"
   },
   "dependencies": {
     "@astrojs/prism": "^1.0.2",
