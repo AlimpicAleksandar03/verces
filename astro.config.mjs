@@ -36,12 +36,5 @@ export default defineConfig({
       config: { applyBaseStyles: false },
     }),
   ],
-  routes: [
-    {
-      path: "/api",
-      src: "./api/mongoFunction.js",
-    },
-    // ... other routes
-  ],
 });
 // astro.config.mjs
